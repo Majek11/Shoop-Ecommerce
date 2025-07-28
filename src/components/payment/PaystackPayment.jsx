@@ -5,7 +5,7 @@ const PaystackPayment = ({ amount, email, onSuccess, onClose, disabled = false }
   const [isLoading, setIsLoading] = useState(false)
 
   // Paystack test public key
-  const publicKey = 'pk_test_f61a194c771b23c4a4647363f73619932064c92b'
+  const publicKey = "pk_test_a4d98c403ba891bac49090e3d9c6b3f0de4e8838"
 
   const config = {
     reference: new Date().getTime().toString(),
